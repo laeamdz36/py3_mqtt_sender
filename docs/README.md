@@ -7,3 +7,10 @@ to a MQTT broker that and to be captuired by telegraf and ingest in a influxDB d
 
 - paho.mqtt
 - dotenv
+
+### .env file variables to be set
+
+- BROKER_MQTT = _The ip address_
+- BROKER_PORT = _Port of the broker server_
+- BROKER_USER = _User to access to the MQTT broker_
+- BROKER_PWD = _"Password for the MQTT user broker_
