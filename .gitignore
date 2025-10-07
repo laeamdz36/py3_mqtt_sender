@@ -1,0 +1,59 @@
+# ########################### #
+#  ENTORNOS VIRTUALES Y DEPS  #
+# ########################### #
+# No incluyas el entorno virtual. Cada desarrollador debe crear el suyo.
+.venv/
+venv/
+ENV/
+env/
+.env
+.direnv/
+
+# Archivos de gestión de dependencias (se usa requirements.txt en su lugar)
+*.egg-info/
+.eggs/
+dist/
+build/
+wheels/
+*.egg
+pip-wheel-metadata/
+pip-selfcheck.json
+
+# ########################### #
+#  ARCHIVOS DE PYTHON         #
+# ########################### #
+# Caché de bytecode compilado de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ########################### #
+#  CONFIGURACIÓN DE VS CODE   #
+# ########################### #
+# Ignora la carpeta de configuración local de VS Code.
+# El archivo settings.json sí se puede compartir si se desea,
+# pero el resto es específico del usuario.
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vscode/
+
+# ########################### #
+#  SISTEMA OPERATIVO WINDOWS  #
+# ########################### #
+# Archivos de caché de miniaturas
+Thumbs.db
+ehthumbs.db
+
+# Archivos de escritorio
+desktop.ini
+
+# Archivos de Papelera de reciclaje
+$RECYCLE.BIN/
+
+# ########################### #
+#  ARCHIVOS DE CONFIGURACIÓN  #
+# ########################### #
+# Archivos con secretos, contraseñas o claves de API.
+# ¡
